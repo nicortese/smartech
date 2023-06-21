@@ -1,0 +1,32 @@
+.headercontainer{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+  
+
+    
+}
+
+.logoheader{
+    width: 100px;
+    height: 100px;
+}
+
+.maincontainer{
+    width: 100%;
+    height: 600px;
+    background-color: greenyellow;
+    
+}
+
+.footercontainer{
+    width: 100%;
+    height: 200px;
+    background-color: wheat;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
+
