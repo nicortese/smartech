@@ -1,10 +1,7 @@
 .headercontainer{
     width: 100%;
     height: 200px;
-    background-color: red;
-  
-
-    
+    background-color: red;   
 }
 
 .logoheader{
@@ -19,6 +16,45 @@
     
 }
 
+/*Index*/
+
+.indexcontainer {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+.indexcontainer .parrafo_index {
+      color: black;
+      text-align: center;
+      margin-top: 50px; }
+.indexcontainer .titulo_index {
+      color: black;
+      text-align: center;
+      margin-top: 50px; }
+
+.gridcontainer {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    justify-content: space-around; }
+.gridcontainer .brandimage {
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    width: 200px;
+    height: 200px; }
+.gridcontainer .brandimage:hover {
+    opacity: 1; }
+
+
+
+
+/*Footer*/ 
+
 .footercontainer{
     width: 100%;
     height: 200px;
@@ -27,6 +63,37 @@
     display: flex;
     justify-content: space-evenly;
     text-decoration: none;
+        
+}
+
+
+/*media querys*/
+
+/*Mobile + Devices XS*/
+@media only screen and (max-width: 600px){
+
+}
+
+/*Mobile landscape + tablet + Devices S*/
+@media only screen and (min-width: 600px){ 
+
+}
+
+/*Tablet landscape + Devices M*/
+@media only screen and (min-width: 768px){
+
+}
+
+/*Notebooks + Desktop + Devices L*/
+@media only screen and (min-width: 992px){
+
+}
+
+/*Tv + Devices XL*/
+@media only screen and (min-width: 1200px){
     
 }
+
+
+
 

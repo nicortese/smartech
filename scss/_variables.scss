@@ -1,0 +1,15 @@
+$font-family: 'Roboto', sans-serif;
+$h1size: 40px;
+
+
+h1{
+    @if $h1size == 40px{
+        color:red;
+    }
+    @else if $h1size == 15px{
+        color: black;
+    }
+    @else if $h1size == 13px{
+        color: black;
+    }
+}
