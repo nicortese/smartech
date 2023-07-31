@@ -25,7 +25,7 @@
             <a class="nav-link" href="/servicios.html">Servicios</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/empresa.html">Empresa</a>
+            <a class="nav-link" href="/nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="/contacto.html">Contacto</a>
@@ -35,9 +35,10 @@
 </header>
     <main>
         <div class="maincontainer">
-            <h1>Podes enviarnos tu consulta llenando el formulario</h1>
-        <div class="container">
+          <h1 class="title">Podes enviarnos tu consulta llenando el formulario</h1>
+        <div class="containerForm">
             <form>
+              <h3>Que tipo de cliente sos?</h3>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                     <label class="form-check-label" for="flexRadioDefault1">
@@ -50,7 +51,7 @@
                       Empresa
                     </label>
                   </div>
-                <div class="mb-3">
+                <div class="mb-3" margin-top="50px">
                     <label for="formGroupExampleInput" class="form-label">Nombre</label>
                     <input type="text" class="form-control" id="formGroupExampleInput">
                   </div>
@@ -60,7 +61,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label">Telefono</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput">
+                    <input type="number" class="form-control" id="formGroupExampleInput">
                   </div>
                 <div class="form-floating">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
@@ -68,7 +69,7 @@
                   </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Desea recibir el newsletter?</label>
+                  <label class="form-check-label" for="exampleCheck1">Desea recibir novedades?</label>
                 </div>
                 <button type="reset" class="btn btn-primary">Borrar</button>
                 <button type="submit" class="btn btn-primary">Enviar</button>
