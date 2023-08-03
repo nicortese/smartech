@@ -125,8 +125,12 @@
 
 .carouselCard{
     display: grid;
-    columns: 500px 500px;
-
+    columns: 400px 400px;
+    width: 800px;
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 30px;
 }
 
 
