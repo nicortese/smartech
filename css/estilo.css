@@ -121,6 +121,15 @@
     
 }
 
+/*Nostros*/
+
+.carouselCard{
+    display: grid;
+    columns: 500px 500px;
+
+}
+
+
 
 /*Contacto*/ 
 
